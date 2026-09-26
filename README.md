@@ -6,6 +6,15 @@ Built strictly under **100% free-tier constraints** (no credit card required).
 
 ---
 
+## 🌐 Live Production URLs
+
+- **Live Web Application**: [https://gitpulse-alpha.vercel.app](https://gitpulse-alpha.vercel.app)
+- **Backend API & Webhook Service**: [https://github-automation-bot-s84d.onrender.com](https://github-automation-bot-s84d.onrender.com)
+- **Health Endpoint**: [https://github-automation-bot-s84d.onrender.com/api/health](https://github-automation-bot-s84d.onrender.com/api/health)
+- **GitHub Code Repository**: [https://github.com/Shubham043/Github-automation-bot](https://github.com/Shubham043/Github-automation-bot)
+
+---
+
 ## 🚀 Key Features
 
 - **GitHub OAuth 2.0**: Secure authentication with repository read/write and webhook management scopes.
