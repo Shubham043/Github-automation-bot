@@ -56,13 +56,13 @@ app.use(
       tableName: 'session',
       createTableIfMissing: true,
     }),
-    name: config.isProduction ? '__Host-sid' : 'gitpulse_sid',
+    name: 'gitpulse_sid',
     secret: config.sessionSecret,
     resave: false,
     saveUninitialized: false,
     cookie: {
       httpOnly: true,
-      secure: config.isProduction, // HTTPS required in production, false for HTTP localhost
+      secure: config.isProduction, // HTTPS in production
       sameSite: 'lax',
       maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
       path: '/',
